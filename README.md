@@ -37,10 +37,10 @@
 <br>
 × <i> You'll need a API_ID & API_HASH in order to generate Telethon session string. Get This Values from https://my.telegram.org </i>
 <h4>• Generate Session via Repl.it: </h4>    
-<p><a href="https://replit.com/@RiZoeL/RiZoeLXSpam#main.py"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
+<p><a href="https://replit.com/@ZakerBhai/hellsession#main.py"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
 
 <h4>• Generate Session Via Telegram Bot: </h4>
-<p><a href="http://t.me/TELESTRING_BOT?start=start"><img src="https://telegra.ph/file/fc547ab72781632da472a.jpg" width="200""/></a></p>
+<p><a href="http://t.me/Venom_String_robot?start=start"><img src="https://telegra.ph/file/fc547ab72781632da472a.jpg" width="200""/></a></p>
 
 </details>
 
