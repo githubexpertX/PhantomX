@@ -9,7 +9,7 @@ _RIZOEL_MAIN() {
     $(_python_ 'from git import Repo
 import sys
 
-_UPSTREAM_ = "https://github.com/RiZoeLX/plugins"
+_UPSTREAM_ = "https://github.com/NEIMAN-AI/Plugins"
 _BRANCH_ = "main"
 
 repo = Repo.init()
@@ -19,17 +19,17 @@ repo.create_head(_BRANCH_, origin.refs[_BRANCH_])
 repo.heads[_BRANCH_].checkout(True) ')
 }
 
-_riz_repo () {
+_tom_repo () {
     local rrepo
-    rrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL1JpWm9lTFgvcGx1Z2lucw==" | base64 -d`
+    rrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL05FSU1BTi1BSS9QbHVnaW5z" | base64 -d`
     echo "$rlink"
 }
 
-Riz_zip () {
+tom_zip () {
     echo "aHR0cHM6Ly9naXRodWIuY29tL1JpWm9lTFgvUmlab2VMWFNwYW0vYXJjaGl2ZS9NYWluLnppcA==" | base64 -d
 }
 
-_RIZOEL_PLUG() {
+_PHANTOM_PLUG() {
     local rrepo=$(_riz_repo)
     $(_python_ 'from git import Repo
 import sys
@@ -43,15 +43,15 @@ repo.heads[_BRANCH_].checkout(True) ')
 }
 
 _starter () {
-    local Rizpath
-    Rizpath="rizoelxspam.zip"
-    echo "•• Downloading RiZoeLXSpam ••"
-    wget -q $(Riz_zip) -O "$Rizpath"
-    RIZPATH=$(zipinfo -1 "$Rizpath" | grep -v "/.");
-    unzip -qq "$Rizpath"
-    rm -rf "$Rizpath"
-    # _RIZOEL_MAIN
-    cd $RIZPATH
+    local tompath
+    tompath="phantomx.zip"
+    echo "•• Downloading PhantomX ••"
+    wget -q $(tom_zip) -O "$tompath"
+    TOMPATH=$(zipinfo -1 "$tompath" | grep -v "/.");
+    unzip -qq "$tompath"
+    rm -rf "$tompath"
+    # _PHANTOM_MAIN
+    cd $TOMPATH
     # _RIZOEL_PLUG
     python3 ../startup/run.py ../requirements.txt requirements.txt
     echo "• PhantomX Here. •"
