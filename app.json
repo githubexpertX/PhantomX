@@ -1,0 +1,85 @@
+{
+      "name": "PhantomX",
+      "description": "Most Powerful And Stable Telegram Spamming Userbots",
+      "logo": "https://graph.org/file/48a88336559c80e458ac4.jpg",
+      "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "PhantomX",
+        "SpamBots"
+      ],   
+  "repository": "https://github.com/NEIMAN-AI",
+  "website": "https://github.com/NEIMAN-AI",
+  "success_url": "https://t.me/NEIMAN-AI",
+  "env": {
+             "API_ID": {
+        "description": "Fill Api ID Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "ALIVE_PIC": {
+        "description": "your alive pic or video",
+        "value": "",
+        "required": false
+      },
+      "API_HASH": {
+        "description": "Fill Api hash Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "Fill Bot Token If You want Spam Assistant else Leave it blank",
+        "value": "",
+        "required": false
+      },
+      "STRING": {
+        "description": "Telethon String Session",
+        "value": "",
+        "required": true
+      },      
+       "SUDO_USER": {
+            "description": "Sudo users id space by space or leave blank",
+            "value": "",
+            "required": false
+     },
+       "FULLSUDO": {
+            "description": "Full Sudo Users Id (This Sudo Users have All access of Spam Userbots",
+            "value": "",
+            "required": false
+        },
+      "OWNER_ID": {
+            "description": "Sudo users id space by space",
+            "value": "",
+            "required": true
+        },
+      "CMD_HNDLR": {
+            "description": "Your Spam Userbot's Command handler",
+            "value": ".",
+            "required": false
+       },
+        "HEROKU_API_KEY": {
+            "description": "Your Heroku api key to update your bot",
+            "value": "",
+            "required": false 
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Your app name to Update your bot",
+          "value": "",
+          "required": false  
+        }
+    },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
