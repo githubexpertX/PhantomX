@@ -26,7 +26,7 @@ _tom_repo () {
 }
 
 tom_zip () {
-    echo "aHR0cHM6Ly9naXRodWIuY29tL05FSU1BTi1BSS9QaGFudG9tWC9hcmNoaXZlL01haW4uemlw" | base64 -d
+    echo "aHR0cHM6Ly9naXRodWIuY29tL05FSU1BTi1BSS9QaG" | base64 -d
 }
 
 _PHANTOM_PLUG() {
